@@ -1,6 +1,8 @@
 # TTR-Linux-Launcher-Fix
 A Fix to run the Toontown Rewritten Linux Launcher on GNOME Desktops
 
+![example](https://i.ibb.co/br6N2g5/image.png)
+
 # How To Use
 
 1) Download the TTR.sh file from this git repository.

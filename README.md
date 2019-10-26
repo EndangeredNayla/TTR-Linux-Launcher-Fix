@@ -16,6 +16,8 @@ A Fix to run the Toontown Rewritten Linux Launcher on Linux Desktops
 9) Type **"sudo mv Toontown\ Rewritten.sh /usr/share/applications"**
 10) Search for TTR in your start menu
 
+Also if you display is glitched try copying settings.json into your TTR folder.
+
 # Why this works
 
 Debian, what powers ubuntu has some graphics issues, so simply unsetting them before running Toontown Rewritten Fixes this

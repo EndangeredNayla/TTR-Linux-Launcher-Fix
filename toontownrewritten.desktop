@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/home/parker/Games/TTR/logo_eyes.png
+Name[en_US]=Toontown Rewritten
+Exec=/home/parker/Games/TTR/TTR.sh
+Name=Toontown Rewritten
+Icon=/home/parker/Games/TTR/logo_eyes.png

@@ -21,3 +21,11 @@ A Fix to run the Toontown Rewritten Linux Launcher on Linux Desktops
 Debian, what powers ubuntu has some graphics issues, so simply unsetting them before running Toontown Rewritten Fixes this
 
 The reason the cd to the directory is needed is because if you do a shortcut onto the desktop then it will add the phase files to the desktop
+
+# Tested Distros
+
+- Ubuntu 18.04
+- deepin 15.11
+- Linux Mint
+- Debian Stable 9
+- Zorin OS 15

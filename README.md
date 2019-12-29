@@ -6,30 +6,27 @@ A Fix to run the Toontown Rewritten Linux Launcher on Linux Desktops
 # How To Use
 
 1) Download the TTR.sh file from this git repository.
-2) Download the Offical Linux Launcher from TTR's Website
-3) Make a folder in your home folder called Games
-4) Make a folder inside of Games called TTR
-5) Edit the .sh script to include your home directory on the **cd** line
-6) Test running the .sh script. It should work
-7) Download the toontownrewritten.desktop file to your desktop
-8) Edit the file to change the home directory to yours.
-9) Type **"sudo mv Toontown\ Rewritten.sh /usr/share/applications"**
-10) Search for TTR in your start menu
+2) Download the Offical Linux Launcher from TTR's Website.
+3) Put the TTR.sh and the Offical Linux Launcher into a folder.
+4) Edit the TTR.sh script file to change `path/to/TTR/dir/` to the location of the folder you made in step 3.
+5) Launch the TTR.sh File.
 
-Also if you display is glitched try copying settings.json into your TTR folder.
+# Other Issues
 
-# Why this works
+### My Toontown Rewritten Game Window is Stuff in Full Screen
+Copy the settings.json found here into your TTR game folder.
 
-Debian, what powers ubuntu has some graphics issues, so simply unsetting them before running Toontown Rewritten Fixes this
-Well not really but it has to do with the X Window Manager.
 
-The reason the cd to the directory is needed is because if you do a shortcut onto the desktop then it will add the phase files to the desktop
+
+# Why This Works
+The Toontown Rewritten Linux client has some graphical issues with the X Window Manager installed by defualt on some linux distros. Running This Script can fix alot of those issues that are in place.
+
+The reason you need to CD to the directory is because if you want to make a shortcut on the Desktop or somewhere else you need to go to the directory TTR is in for the game to fully launch.
 
 # Tested Distros
-
 - Ubuntu 18.04
 - deepin 15.11
-- Linux Mint
+- Linux Mint 19.2
 - Debian Stable 9
 - Zorin OS 15
 - PopOS 19_10

@@ -37,3 +37,4 @@ The reason you need to CD to the directory is because if you want to make a shor
 - Zorin OS 15
 - PopOS 19_10
 - PopOS 18_04
+- elementry 5.1

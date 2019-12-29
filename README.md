@@ -5,18 +5,21 @@ A Fix to run the Toontown Rewritten Linux Launcher on Linux Desktops
 
 # How To Use
 
-1) Download the TTR.sh file from this git repository.
+1) Download the `TR.sh` file from this git repository.
 2) Download the Offical Linux Launcher from TTR's Website.
-3) Put the TTR.sh and the Offical Linux Launcher into a folder.
-4) Edit the TTR.sh script file to change `path/to/TTR/dir/` to the location of the folder you made in step 3.
-5) Launch the TTR.sh File.
+3) Put the `TTR.sh` and the Offical Linux Launcher into a folder.
+4) Edit the `TTR.sh` script file to change `path/to/TTR/dir/` to the location of the folder you made in step 3.
+5) Launch the `TTR.sh` File.
+
+
 
 # Other Issues
 
-### My Toontown Rewritten Game Window is Stuff in Full Screen
-Copy the settings.json found here into your TTR game folder.
+Q: My Toontown Rewritten Game Window is Stuff in Full Screen
+A: Copy the settings.json found here into your TTR game folder.
 
-
+Q: How Do I Add Toontown Rewritten to my Application Launcher.
+A: I would recommend using `alacarte` which should be in your Packages. The Execuatble would be the `TTR.sh` file and you can use the icon located in this repo if you wish.
 
 # Why This Works
 The Toontown Rewritten Linux client has some graphical issues with the X Window Manager installed by defualt on some linux distros. Running This Script can fix alot of those issues that are in place.

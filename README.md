@@ -21,6 +21,7 @@ Also if you display is glitched try copying settings.json into your TTR folder.
 # Why this works
 
 Debian, what powers ubuntu has some graphics issues, so simply unsetting them before running Toontown Rewritten Fixes this
+Well not really but it has to do with the X Window Manager.
 
 The reason the cd to the directory is needed is because if you do a shortcut onto the desktop then it will add the phase files to the desktop
 
@@ -31,3 +32,5 @@ The reason the cd to the directory is needed is because if you do a shortcut ont
 - Linux Mint
 - Debian Stable 9
 - Zorin OS 15
+- PopOS 19_10
+- PopOS 18_04
